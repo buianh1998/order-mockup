@@ -3,13 +3,15 @@
   padding: 0;
 }
 
-img{
+img {
   display: block;
 }
-.btn{
+.btn {
   outline: 0;
 }
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -125,7 +127,9 @@ input::placeholder,
 @media (min-width: 768px) {
   main {
     margin-top: var(--space-80);
-    min-height: calc(100vh - var(--space-80) - var(--space-70) - var(--space-72));
+    min-height: calc(
+      100vh - var(--space-80) - var(--space-70) - var(--space-72)
+    );
   }
 }
 
